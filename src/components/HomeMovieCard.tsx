@@ -10,7 +10,7 @@ function HomeMovieCard({movieImage} : HomeMovieCardProps) {
         <div className="flex flex-col items-center justify-center h-[466px] w-[222px]">
             <img 
                 src={movieImage}
-                className="h-{95%} w-full rounded-tl-lg rounded-tr-lg"
+                className="h-{95%}  w-full rounded-tl-lg rounded-tr-lg"
             />
 
             <div className="bg-black w-full text-white text-left rounded-bl-lg rounded-br-lg py-1">
